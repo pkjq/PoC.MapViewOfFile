@@ -229,6 +229,6 @@ try
 }
 catch (const std::exception &ex)
 {
-	std::cout << "Exception occured:\n" << ex.what() << "\n";
+	std::cout << "Exception occurred:\n" << ex.what() << "\n";
 	return -1;
 }
